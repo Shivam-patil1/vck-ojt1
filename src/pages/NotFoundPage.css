@@ -1,0 +1,35 @@
+.notfound {
+  text-align: center;
+  padding: 4rem 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.notfound h1 {
+  font-size: 6rem;
+  color: #dc3545;
+  margin: 0;
+  line-height: 1;
+}
+
+.notfound p {
+  font-size: 1.5rem;
+  color: #666;
+  margin: 1rem 0 2rem;
+}
+
+.back-home {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.back-home:hover {
+  background-color: #0056b3;
+  text-decoration: none;
+  color: white;
+} 
