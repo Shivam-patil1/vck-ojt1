@@ -34,10 +34,10 @@
 
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Header from './components/Header';
+// import Header from './components/Header';
 import Home from './components/Home';
 import About from './components/About';
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
 import Contact from './pages/ContactPage';
 import Admission from './pages/AdmissionPage';
 import NotFoundPage from './pages/NotFoundPage';
@@ -46,7 +46,7 @@ import CoursesPage from './pages/CoursesPage';
 function App() {
   return (
      <Router>
-      <Header />
+      {/* <Header /> */}
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -57,7 +57,7 @@ function App() {
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </Router>
     
   );
