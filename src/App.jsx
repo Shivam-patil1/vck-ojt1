@@ -35,13 +35,15 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 // import Header from './components/Header';
-import Home from './components/Home';
+// import Home from './components/Home';
 import About from './components/About';
 // import Footer from './components/Footer';
 import Contact from './pages/ContactPage';
 import Admission from './pages/AdmissionPage';
 import NotFoundPage from './pages/NotFoundPage';
 import CoursesPage from './pages/CoursesPage';
+import Home from './pages/HomePage';
+// import Home from './pages/HomePage';
 
 function App() {
   return (
